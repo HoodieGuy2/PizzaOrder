@@ -7,18 +7,17 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Order a Pizza</h1>
-    <button id="pizza-btn">Order Pizza</button>
-    <button id="greet-btn">Greeting</button>
-    <p>
-      document refers to the html document in the scripts root folder <br />
-      getElementById gets a html tag by its given id <br />
-      addEventListener makes input peices active by checking for specific input
-      a function is something that executes multiple commands by only calling a
-      single command<br />
-      a null reference exception occors when the script cannot find something, a
-      way to find where it is occuring is by looking at the line the error is
-      given inside the console
-    </p>
+    <h1>Pizzeria</h1>
+    <p><button id="btn">Click Here</button></p>
+
+    <p>Topping 1: <input type="text" id="top1Inp" /></p>
+    <p>Topping 2: <input type="text" id="top2Inp" /></p>
+    <p>Pizza Size: <input type="text" id="sizeInp" /></p>
+
+    <hr />
+
+    <!-- Order Details -->
+    <h2>Your Order</h2>
+    <div><p id="output"></p></div>
   </body>
 </html>
